@@ -7,7 +7,7 @@
     <style>
 
         #about {
-             background-color: #ffffff;
+             background-color: #f8a0a0;
             border-radius: 10px;
             padding: 20px;
             max-width: 700px;
@@ -68,7 +68,52 @@
             margin-top: 0;
             margin-bottom: 16px;
         }
+
+
+        #contact p {
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+        margin: 8px 0;
+        padding: 6px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+     #contact p:last-child {
+        justify-content: center;
+        gap: 10px;
+    }
+
+     #contact strong {
+        min-width: 180px;
+        color:aqua;
+        font-weight: 600;
+        text-align: right;
+        padding-right: 16px;
+        flex-shrik: 0;
+    } 
+
+    @media (max-width: 600px) {
+        #contact p {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+         #contact strong {
+            text-align: left;
+            padding-right: 0;
+            margin-bottom: 2px;
+        }
+
+        #contact p:last-child {
+        justify-content: center;
+        gap: 10px;
+    }
+    }
+
     </style>
+
+
 </head>
 <body>
 <header>
@@ -85,8 +130,8 @@
     <section id="home">
         <h2>Selamat Datang</h2>
         <p>Ini contoh paragraf HTML.</p>
-    </section id="about">
-    <section>
+    </section>
+    <section  id="about">
         <h2>Tentang Saya</h2>
         <p><strong>NIM:</strong> 2511500009</p>
         <p><strong>Nama Lengkap:</strong> Muhammad Faiz afdhol Fanani &#128516;</p>
