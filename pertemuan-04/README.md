@@ -10,4 +10,5 @@ Hari ini, Rabu 15 Oktober 2025, saya mempelajari:
     <li>aturan css untuk body dan global reset</li>
     <li>membuat styling header</li>
     <li>membuat styling section#home</li>
+    <li>membuat styling footer</li>
 </ol>

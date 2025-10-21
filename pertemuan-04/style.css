@@ -32,7 +32,7 @@
         }
 
         #home {
-            background-color: #ffffff;
+            background-color: #08f22b;
             border-radius: 10px;
             padding: 20px;
             max-width: 700px;
@@ -52,6 +52,12 @@
             text-align: justify;
         }
         
+        footer {
+            background: #222;
+            color: #aaa;
+            text-align: center;
+            padding: 10px;
+        }   
     
       #about {
             background-color: #f8a0a0;
