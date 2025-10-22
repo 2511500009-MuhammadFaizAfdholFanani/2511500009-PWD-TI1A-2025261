@@ -48,6 +48,7 @@
             background-color: #24a8dd;
             transform: translateY(1px);
         }
+
     
         #home {
             background-color: #08f22b;
@@ -75,7 +76,8 @@
             color: #aaa;
             text-align: center;
             padding: 10px;
-        }   
+        } 
+          
     
       #about {
             background-color: #f8a0a0;
@@ -112,6 +114,7 @@
             flex-shrik: 0;
         } 
         
+
         #contact {
             background-color: rgb(184, 222, 11);
             border-radius: 10px;
