@@ -8,14 +8,14 @@
             background: #f5f5f5;
             color: #333;
             line-height: 1.5;
-      }
+        }
 
       header {
             background: #003366;
             color: #fff;
             padding: 20px;
             text-align: center;
-      }
+        }
 
       header ul {
             display: flex;
@@ -23,7 +23,7 @@
             list-style: none;
             padding: 0;
             margin: 10px 0 0;
-      }
+        }
 
         header li a {
             color: #fff;
@@ -282,6 +282,15 @@
         #contact button[type="reset"]:hover {
             background-color: #cccccc;
             transform: translateY(-1px);
+        }
+
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 28px;
+            cursor: pointer;
         }
 
 
