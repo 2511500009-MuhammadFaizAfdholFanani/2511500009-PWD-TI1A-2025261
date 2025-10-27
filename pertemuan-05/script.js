@@ -16,10 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
     homeSection.appendChild(ucapan);
 });
 
-document.getElementById("txtPesan").addEventListener("input", function () {
-    const panjang = this.value.length;
-    document.getElementById("charCount").textContent = panjang + "/200 karakter";
-});
 
 document.querySelector("form").addEventListener("submit", function (e) {
     const nama = document.getElementById("txtNama");
@@ -110,4 +106,9 @@ window.addEventListener("resize", () => {
     const target = document.getElementById(small.dataset.forId);
     if (target) alignErrorMessage(small, target);
   });
+});
+
+document.getElementById("txtPesan").addEventListener("input", function () {
+    const panjang = this.value.length;
+    document.getElementById("charCount").textContent = panjang + "/200 karakter";
 });
