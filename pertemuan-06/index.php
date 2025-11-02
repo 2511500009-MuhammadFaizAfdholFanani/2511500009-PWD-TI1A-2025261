@@ -33,7 +33,7 @@
     <section  id="about">
         <?php
         $NIM = 2511500009;
-        $nim = 25115;
+        $nim = 25115632007;
         $Nama = "Muhammad Faiz Afdhol Fanani";
         $nama = "muhammad faiz afdhol fanani";
         $Tempat_Lahir = "Sungailiat";
@@ -57,12 +57,12 @@
         <h2>Tentang Saya</h2>
         <p><strong>NIM:</strong> 
             <?php
-                echo $nim;
+                echo $NIM;
             ?>
         </p>
         <p><strong>Nama Lengkap:</strong>  
             <?php
-                echo $nama;
+                echo $Nama;
             ?>
         &#128516;</p>
         <p><strong>Tempat Lahir:</strong>
