@@ -110,9 +110,7 @@
     <section id="ipk">
             <h2>Nilai Saya</h2>
             <?php 
-            // ==========================
-            // Data Mata Kuliah
-            // ==========================
+
             $namaMatkul1 = "Kalkulus";
             $namaMatkul2 = "Logika Informatika";
             $namaMatkul3 = "Pengantar Teknik Informatika";
@@ -131,9 +129,7 @@
             $nilaiHadir4 = 88; $nilaiTugas4 = 85; $nilaiUTS4 = 70; $nilaiUAS4 = 90;
             $nilaiHadir5 = 90; $nilaiTugas5 = 80; $nilaiUTS5 = 80; $nilaiUAS5 = 85;
 
-            // ==========================
-            // Fungsi-fungsi
-            // ==========================
+            
             function hitungNilaiAkhir($hadir, $tugas, $uts, $uas) {
                 return (0.1 * $hadir) + (0.2 * $tugas) + (0.3 * $uts) + (0.4 * $uas);
             }
@@ -163,9 +159,7 @@
                 }
             }
 
-            // ==========================
-            // Proses Perhitungan
-            // ==========================
+        
             $matkul = [
                 [$namaMatkul1, $sksMatkul1, $nilaiHadir1, $nilaiTugas1, $nilaiUTS1, $nilaiUAS1],
                 [$namaMatkul2, $sksMatkul2, $nilaiHadir2, $nilaiTugas2, $nilaiUTS2, $nilaiUAS2],
@@ -178,9 +172,7 @@
             $totalSKS = 0;
             $no = 1;
 
-            // ==========================
-            // Tampilkan Output Rapi
-            // ==========================
+            
             foreach ($matkul as $m) {
                 list($nama, $sks, $hadir, $tugas, $uts, $uas) = $m;
 
