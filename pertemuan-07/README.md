@@ -8,4 +8,5 @@ Hari ini, Rabu 22 Oktober 2025, saya mempelajari:
     <li>copy seluruh dari elearning ( puya dosen) untuk latihan pertemuan-07</li>
     <li>copy dan rename index.php, kemudian buat file baru get_proses.php</li>
     <li>isi get_proses.php</li>
+    <li>session di get_proses.php</li>
 </ol>
