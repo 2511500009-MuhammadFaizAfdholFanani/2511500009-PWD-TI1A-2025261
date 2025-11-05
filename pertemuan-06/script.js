@@ -191,8 +191,8 @@ function applyResponsiveLayout() {
         counter.style.width = 'auto';
     }
 }
-setupCharCountLayout();
 
+setupCharCountLayout();
 window.addEventListener('resize', applyResponsiveLayout);
 
 });
