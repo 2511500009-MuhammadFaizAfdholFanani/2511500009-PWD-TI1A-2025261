@@ -55,6 +55,8 @@ endif;
     <section id="Pendaftaran Profil PEngunjung">
       <h2>Pendaftaran Profil Pengunjung</h2>
       <p>Silakan isi formulir di bagian Kontak untuk mendaftar profil Anda.</p>
+      <form action="proses.php" method="POST">
+
       <label for="txtNim"><span>NIM:</span>
           <input type="NIM" id="txtNim" name="txtNim" placeholder="Masukkan NIM Anda" required autocomplete="NIM">
         </label>
@@ -64,10 +66,40 @@ endif;
         </label>
 
         <label for="txtTempatLahir"><span>Tempat Lahir:</span>
-          <input type="Tempat Lahir" id="txtTempatLahir" name="txtNim" placeholder="Masukkan NIM" required autocomplete="NIM">
+          <input type="Tempat Lahir" id="txtTempatLahir" name="txtTempatLahir" placeholder="Masukkan Tempat Lahir" required autocomplete="Tempat Lahir">
         </label>
 
+        <label for="txtTanggalLahir"><span>Tanggal Lahir:</span>
+          <input type="Tanggal Lahir" id="txtTanggalLahir" name="txtTanggalLahir" placeholder="Masukkan Tanggal Lahir" required autocomplete="Tanggal Lahir">
+        </label>
 
+        <label for="txtHobi"><span>Hobi:</span>
+          <input type="Hobi" id="txtHobi" name="txtHobi" placeholder="Masukkan Hobi Anda" required autocomplete="Hobi">
+        </label>
+
+        <label for="txtPasangan"><span>Pasangan:</span>
+          <input type="Pasangan" id="txtHobi" name="txtPasangan" placeholder="Masukkan Pasangan anda" required autocomplete="Pasangan">
+        </label>
+
+        <label for="txtPekerjaan"><span>Pekerjaan:</span>
+          <input type="Pekerjaan" id="txtPEkerjaan" name="txtPekerjaan" placeholder="Masukkan Pekerjaan Anda" required autocomplete="Pekerjaan">
+        </label>
+
+        <label for="txtNamaOrangTua"><span>Nama Orang Tua:</span>
+          <input type="Nama Oarang Tua" id="txtNamaOrangTua" name="txtNamaOrangTua" placeholder="Masukkan Nama Orang Tua Anda" required autocomplete="Nama Orang Tua">
+        </label>
+
+        <label for="txtNamaKakak"><span>Nama Kakak:</span>
+          <input type="Nama Kakak" id="txtNamaKakak" name="txtNamaKakak" placeholder="Masukkan Nama Kakak Anda" required autocomplete="Nama Kakak">
+        </label>
+
+        <label for="txtNamaAdik"><span>Nama Adik:</span>
+          <input type="Nama Adik" id="txtNamaAdik" name="txtNamaAdik" placeholder="Masukkan Nama Adik Anda" required autocomplete="Nama Adik">
+        </label>
+
+        <button type="submit">Kirim</button>
+        <button type="reset">Batal</button>
+      </form>        
 
   </section>
 

@@ -2,11 +2,13 @@
 
 silahkan sesuaikan dengan milik kalian masing-masing:<br><br>
 Hari ini, Rabu 12.NOV.2025, saya:<br>
-NIM: 0344300002<br>
-Nama: Yohanes Setiawan Japriadi<br>
+NIM: 2511500009<br>
+Nama: Muhammad Faiz Afdhol Fanani<br>
 Kelompok: TI1A<br>
 <br>
 Proses saya mengerjakan UTS ini sebagai berikut:<br>
 <ol>
+  <li>Mengekstrak file bahan uts di file pertemuan 8</li>
   <li>Menambah section#Pendaftaran Profil pengunjung index.php</li>
+  <li>Menambah input form section#Pendaftaran Profil pengunjung index.php</li>
 </ol>
