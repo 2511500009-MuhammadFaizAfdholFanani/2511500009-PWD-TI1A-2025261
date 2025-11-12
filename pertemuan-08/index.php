@@ -36,6 +36,7 @@ endif;
     <nav>
       <ul>
         <li><a href="#home">Beranda</a></li>
+        <li><a href="#Pendaftaran">Pendaftaran</a></li>
         <li><a href="#about">Tentang</a></li>
         <li><a href="#contact">Kontak</a></li>
       </ul>
@@ -97,8 +98,8 @@ endif;
           <input type="Nama Adik" id="txtNamaAdik" name="txtNamaAdik" placeholder="Masukkan Nama Adik Anda" required autocomplete="Nama Adik">
         </label>
 
-        <button type="submit">Kirim</button>
-        <button type="reset">Batal</button>
+        <button type="submit1">Kirim</button>
+        <button type="reset1">Batal</button>
       </form>        
 
   </section>
@@ -150,8 +151,8 @@ endif;
         </label>
 
 
-        <button type="submit">Kirim</button>
-        <button type="reset">Batal</button>
+        <button type="submit2">Kirim</button>
+        <button type="reset2">Batal</button>
       </form>
 
       <?php if (!empty($sesnama)): ?>

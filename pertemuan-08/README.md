@@ -12,4 +12,6 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>Menambah section#Pendaftaran Profil pengunjung index.php</li>
   <li>Menambah input form di section#Pendaftaran Profil pengunjung index.php</li>
   <li>mengatur style.css untuk section#pendaftaran</li>
+  <li>mengatur file proses.php</li>
+
 </ol>
