@@ -10,5 +10,6 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
 <ol>
   <li>Mengekstrak file bahan uts di file pertemuan 8</li>
   <li>Menambah section#Pendaftaran Profil pengunjung index.php</li>
-  <li>Menambah input form section#Pendaftaran Profil pengunjung index.php</li>
+  <li>Menambah input form di section#Pendaftaran Profil pengunjung index.php</li>
+  <li>mengatur style.css untuk section#pendaftaran</li>
 </ol>
