@@ -8,7 +8,7 @@ $_SESSION["sesemail"] = $sesemail;
 $_SESSION["sespesan"] = $sespesan;
 
 $arrBiodata = [
-"Nim" => $_POST["txtNim"] ?? "",
+"nim" => $_POST["txtNim"] ?? "",
 "nama" => $_POST["txtNmLengkap"] ?? "",
 "tempat" => $_POST["txtT4Lhr"] ?? "",
 "tanggal" => $_POST["txtTglLhr"] ?? "",
@@ -22,4 +22,5 @@ $arrBiodata = [
 
 $_SESSION["biodata"] = $arrBiodata;
 header("location: index.php#contact");
+header("location: index.php");
 ?>
