@@ -15,4 +15,5 @@
   <li>mengedit proses.php baris 23-32 menjadi bentuk array associative</li>
   <li>mengedit file index.php dengan menghapus kode baris 19-67 dan menambah fieldconfig biodata</li>
   <li>menambahkan file fungsi.php</li>
+   <li>menambahkan kode fungsi</li>
 </ol>
