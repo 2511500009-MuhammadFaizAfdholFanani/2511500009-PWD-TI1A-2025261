@@ -7,6 +7,7 @@ Kelompok: TI1A<br>
 <br>
 Proses saya mengerjakan  ini sebagai berikut:<br>
 <ol>
+  <li>mengekstarak file bahan pertemuan-10</li>
   <li>Membuat File koneksi.php dan menambah kode di dalamnya</li>
   <li>mendownload phpMyadmin dan membuat create</li>
   <li>membuat kode tabel_tamu di SQL phpMyadmin</li>
