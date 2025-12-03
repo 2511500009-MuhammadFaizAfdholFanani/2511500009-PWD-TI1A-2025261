@@ -13,3 +13,4 @@ Proses saya mengerjakan  ini sebagai berikut:<br>
   <li>membuat kode tabel_tamu di SQL phpMyadmin</li>
   <li>membuat file read.php dan menambahkan kode di dalam nya</li>
   <li>mengisi tbl_tamu di phpMyadmin</li>
+  <li>mengcopy file read.php menjadi reac_inc.php dan mengubah kode di dalam nya</li>
