@@ -12,3 +12,4 @@ Proses saya mengerjakan  ini sebagai berikut:<br>
   <li>mendownload phpMyadmin dan membuat create</li>
   <li>membuat kode tabel_tamu di SQL phpMyadmin</li>
   <li>membuat file read.php dan menambahkan kode di dalam nya</li>
+  <li>mengisi tbl_tamu di phpMyadmin</li>
