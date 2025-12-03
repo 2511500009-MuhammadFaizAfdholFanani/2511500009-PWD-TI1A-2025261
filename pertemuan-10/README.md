@@ -16,3 +16,4 @@ Proses saya mengerjakan  ini sebagai berikut:<br>
   <li>mengcopy file read.php menjadi reac_inc.php dan mengubah kode di dalam nya</li>
   <li>mengubah kode 146 di index.php</li>
   <li>menghapus kode 133-141 di index.php</li>
+  <li>export database db_pwd2025</li>
