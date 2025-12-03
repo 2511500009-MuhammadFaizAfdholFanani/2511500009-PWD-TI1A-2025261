@@ -15,3 +15,4 @@ Proses saya mengerjakan  ini sebagai berikut:<br>
   <li>mengisi tbl_tamu di phpMyadmin</li>
   <li>mengcopy file read.php menjadi reac_inc.php dan mengubah kode di dalam nya</li>
   <li>mengubah kode 146 di index.php</li>
+  <li>menghapus kode 133-141 di index.php</li>

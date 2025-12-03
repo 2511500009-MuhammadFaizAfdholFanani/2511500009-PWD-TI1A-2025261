@@ -16,9 +16,9 @@ if (!$q) {
 } else {
     while ($row = mysqli_fetch_assoc($q)) {
         $arrContact = [
-            "nama" => $row["nama"] ?? "",
-            "email" => $row["email"] ?? "",
-            "pesan" => $row["pesan"] ?? ""
+            "nama" => $row["cnama"] ?? "",
+            "email" => $row["cemail"] ?? "",
+            "pesan" => $row["cpesan"] ?? "",
         ];
         echo tampilkanBiodata($fieldContact, $arrContact);
     }
