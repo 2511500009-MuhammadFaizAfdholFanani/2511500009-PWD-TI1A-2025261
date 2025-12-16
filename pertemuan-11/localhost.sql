@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Waktu pembuatan: 03 Des 2025 pada 05.38
+-- Waktu pembuatan: 16 Des 2025 pada 14.20
 -- Versi server: 5.7.33
 -- Versi PHP: 7.4.19
 
@@ -20,8 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `db_pwd2025`
 --
-CREATE DATABASE IF NOT EXISTS `db_pwd2025` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `db_pwd2025`;
 
 -- --------------------------------------------------------
 
@@ -33,17 +31,19 @@ CREATE TABLE `tbl_tamu` (
   `cid` int(11) NOT NULL,
   `cnama` varchar(100) DEFAULT NULL,
   `cemail` varchar(100) DEFAULT NULL,
-  `cpesan` text
+  `cpesan` text,
+  `dcreated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data untuk tabel `tbl_tamu`
 --
 
-INSERT INTO `tbl_tamu` (`cid`, `cnama`, `cemail`, `cpesan`) VALUES
-(1, 'Faiz', 'Mfaizafdholfanani@gmail.com', 'hahahahahahha'),
-(2, 'kirkir', 'tester@gmail.com', 'yayayaayayayay'),
-(3, 'wulandari tni', 'fishit@gmail.com', 'nurfadilah ngakak\r\ncantik banget');
+INSERT INTO `tbl_tamu` (`cid`, `cnama`, `cemail`, `cpesan`, `dcreated_at`) VALUES
+(1, 'Faiz', 'Mfaizafdholfanani@gmail.com', 'hahahahahahha', '2025-12-16 21:02:35'),
+(2, 'kirkir', 'tester@gmail.com', 'yayayaayayayay', '2025-12-16 21:02:35'),
+(3, 'wulandari tni', 'fishit@gmail.com', 'nurfadilah ngakak\r\ncantik banget', '2025-12-16 21:02:35'),
+(4, 'faiz', 'mfaizafdholfanani31@gmail.com', 'terimakasih atas semuanya', '2025-12-16 21:02:35');
 
 --
 -- Indexes for dumped tables
@@ -63,7 +63,7 @@ ALTER TABLE `tbl_tamu`
 -- AUTO_INCREMENT untuk tabel `tbl_tamu`
 --
 ALTER TABLE `tbl_tamu`
-  MODIFY `cid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `cid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
