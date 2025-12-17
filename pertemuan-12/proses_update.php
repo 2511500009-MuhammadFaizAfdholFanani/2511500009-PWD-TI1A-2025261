@@ -1,7 +1,7 @@
 <?php
 session_start();
-require _DIR_ . '/koneksi.php'; // Sesuaikan path koneksi Anda
-require_once _DIR_ . '/fungsi.php'; // Sesuaikan path fungsi Anda
+require __DIR__ . '/koneksi.php'; // Sesuaikan path koneksi Anda
+require_once __DIR__ . '/fungsi.php'; // Sesuaikan path fungsi Anda
 
 # Cek method form, hanya izinkan POST
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
