@@ -10,6 +10,6 @@ Proses saya mengerjakan  ini sebagai berikut:<br>
   <li>menambahkan aksi edit di read.php</li>
   <li>menambahkan flash sukses dan error di read.php</li>
   <li>menambahkan file edit.php</li>
-  <li></li>
+  <li>menambahkan proses_update.php</li>
   <li></li>
 </ol>
