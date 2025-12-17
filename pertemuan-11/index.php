@@ -154,6 +154,10 @@ require_once __DIR__ . '/fungsi.php';
     <small id="charCount">0/200 karakter</small>
   </label>
 
+  <label>Verifikasi Keamanan:</label><br>
+        <b>Berapa hasil <?php echo $angka1; ?> + <?php echo $angka2; ?> ?</b><br>
+        <input type="number" name="jawaban_captcha" required placeholder="Isi hasil penjumlahan"><br><br>
+      </label>
 
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
