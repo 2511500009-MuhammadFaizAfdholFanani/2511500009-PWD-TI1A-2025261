@@ -9,7 +9,7 @@ Proses saya mengerjakan  ini sebagai berikut:<br>
 <ol>
   <li>menambahkan aksi edit di read.php</li>
   <li>menambahkan flash sukses dan error di read.php</li>
-  <li></li>
+  <li>menambahkan file edit.php</li>
   <li></li>
   <li></li>
 </ol>

@@ -55,7 +55,7 @@ unset($_SESSION['flash_sukses'], $_SESSION['flash_error']);
         ?>
             <tr>
                 <td><?= $no++; ?></td> 
-                <td><a href="edit.php?id=<?= (int)$row['cid']; ?>">Edit</a></td>
+                <td><a href="edit.php?cid=<?= (int)$row['cid']; ?>">Edit</a></td>
                 <td><?= $row['cid']; ?></td>
                 <td><?= $row['cnama']; ?></td>
                 <td><?= $row['cemail']; ?></td>
