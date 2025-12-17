@@ -7,9 +7,9 @@ Kelompok: TI1A<br>
 <br>
 Proses saya mengerjakan  ini sebagai berikut:<br>
 <ol>
-  <li>mengekstarak/menyalin file pertemuan-10 ke file pertemuan-11</li>
-  <li>mengupdate file fungsi.php</li>
-  <li>mungupdate file index.php</li>
-  <li>mengrewrite file proses.php</li>
-  <li>mengerjakan latihan tambahan</li>
+  <li>menambahkan aksi edit di read.php</li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
 </ol>

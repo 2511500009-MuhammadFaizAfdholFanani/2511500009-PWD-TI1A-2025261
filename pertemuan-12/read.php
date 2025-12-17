@@ -2,6 +2,7 @@
     <thead>
         <tr>
             <th>No</th> 
+            <th>aksi</th> 
             <th>ID</th>
             <th>Nama</th>
             <th>Email</th>
@@ -21,7 +22,7 @@
         ?>
             <tr>
                 <td><?= $no++; ?></td> 
-                
+                <td><a href="edit.php?id=<?= (int)$row['cid']; ?>">Edit</a></td>
                 <td><?= $row['cid']; ?></td>
                 <td><?= $row['cnama']; ?></td>
                 <td><?= $row['cemail']; ?></td>
