@@ -6,3 +6,4 @@ Nim: 2511500009<br>
 <ol>
 <li>Import sql bahan praktikum pertemuan 13</li>
 <li>menambahkan link delate di file read.php untuk ke file proses_delate.php</li>
+<li>menyalin semua kode dari proses_update.php ke file proses_delate.php</li>
