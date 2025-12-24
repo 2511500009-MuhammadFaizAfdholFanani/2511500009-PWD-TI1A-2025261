@@ -9,4 +9,5 @@ Nim: 2511500009<br>
 <li>menyalin semua kode dari proses_update.php ke file proses_delate.php</li>
 <li>memperbarui kode di proses_delate.php untuk proses hapus</li>
 <li>menambahkan parameter cid untuk link delate di read.php</li>
+<li>memperbaiki file proses_delate.php agar menggunakan parameter cid</li>
 </ol>
