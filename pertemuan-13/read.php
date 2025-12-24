@@ -48,7 +48,7 @@
     
       <td>
         <a href="edit.php?cid=<?= (int)$row['cid']; ?>">Edit</a>
-        <a href="proses_delate.php">Delate</a>
+        <a href="proses_delate.php?cid=<?= (int)$row['cid']; ?>">Delate</a>
       </td>
       <td><?= $row['cid']; ?></td>
       <td><?= htmlspecialchars($row['cnama']); ?></td>
