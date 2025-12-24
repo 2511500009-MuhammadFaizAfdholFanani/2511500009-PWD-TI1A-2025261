@@ -10,4 +10,5 @@ Nim: 2511500009<br>
 <li>memperbarui kode di proses_delate.php untuk proses hapus</li>
 <li>menambahkan parameter cid untuk link delate di read.php</li>
 <li>memperbaiki file proses_delate.php agar menggunakan parameter cid</li>
+<li>menambahkan konfirmasi penghapusan di read.php. untuk link Delate</li>
 </ol>
