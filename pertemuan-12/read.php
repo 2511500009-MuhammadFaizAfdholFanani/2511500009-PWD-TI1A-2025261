@@ -3,7 +3,7 @@ session_start();
 require 'koneksi.php'; 
 require 'fungsi.php';
 
-$sql = "SELECT * FROM tbl_tamu ORDER BY cid DESC";
+$sql = "SELECT * FROM tbl_tamu ORDER BY cid desc";
 $q = mysqli_query($conn, $sql);
 if (!$q) {
     die("Query error: " . mysqli_error($conn));
@@ -44,25 +44,20 @@ unset($_SESSION['flash_sukses'], $_SESSION['flash_error']);
         </tr>
     </thead>
     <tbody>
-        <?php
-        include 'koneksi.php'; // Sesuaikan nama file koneksi kamu
-        $query = mysqli_query($conn, "SELECT * FROM tbl_tamu");
+    <?php
+    $no = 1; 
+    while ($row = mysqli_fetch_assoc($q)) {
+    ?>
+        <tr>
+            <td><?= $no++; ?></td> 
+            <td><a href="edit.php?cid=<?= (int)$row['cid']; ?>">Edit</a></td>
+            <td><?= $row['cid']; ?></td>
+            <td><?= $row['cnama']; ?></td>
+            <td><?= $row['cemail']; ?></td>
+            <td><?= $row['cpesan']; ?></td>
+            <td><?= $row['dcreated_at']; ?></td> 
+        </tr>
+    <?php } ?>
+</tbody>
 
-        // Soal 1: Buat variabel nomor mulai dari 1
-        $no = 1; 
-
-        while ($row = mysqli_fetch_assoc($query)) {
-        ?>
-            <tr>
-                <td><?= $no++; ?></td> 
-                <td><a href="edit.php?cid=<?= (int)$row['cid']; ?>">Edit</a></td>
-                <td><?= $row['cid']; ?></td>
-                <td><?= $row['cnama']; ?></td>
-                <td><?= $row['cemail']; ?></td>
-                <td><?= $row['cpesan']; ?></td>
-                
-                <td><?= $row['dcreated_at']; ?></td> 
-            </tr>
-        <?php } ?>
-    </tbody>
 </table>

@@ -1,1 +1,7 @@
-#pertemuan-13
+# pertemuan-13
+
+Hari ini, materi terakhir untuk PWD, yaitu rabu 24 desember 2025<br>
+nama saya: Muhammad Faiz Afdhol Fanani<br>
+Nim: 2511500009<br>
+<ol>
+<li>Import sql bahan praktikum pertemuan 13</li>
