@@ -9,5 +9,5 @@ TRYOUT Hari ini saya Melakukan:<br>
 <li>Mengekstrak file soal untuk tryout di folder pertemuan 15</li>
 <li>menambahkan table_Biodata_mahasiswa sebagai tabel identitas di PHPMYADMIN</li>
 <li>membuat file proses_biodataMHs.php</li>
-<li>membuat file Read_biodataMhs.php</li>
+<li>membuat dan mengedit file Read_biodataMhs.php</li>
 
