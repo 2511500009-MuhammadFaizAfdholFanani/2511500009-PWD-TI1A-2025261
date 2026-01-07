@@ -53,7 +53,7 @@ unset($_SESSION['flash_sukses_mhs'], $_SESSION['flash_error_mhs']);
             gap: 10px;
         }
         .btn-edit {
-            background-color: #ffc107;
+            background-color: #32ea12ff;
             color: #000;
             padding: 6px 12px;
             border-radius: 4px;
@@ -61,7 +61,7 @@ unset($_SESSION['flash_sukses_mhs'], $_SESSION['flash_error_mhs']);
             font-size: 14px;
         }
         .btn-hapus {
-            background-color: #dc3545;
+            background-color: #327fe4ff;
             color: white;
             padding: 6px 12px;
             border-radius: 4px;
@@ -69,10 +69,10 @@ unset($_SESSION['flash_sukses_mhs'], $_SESSION['flash_error_mhs']);
             font-size: 14px;
         }
         .btn-edit:hover {
-            background-color: #e0a800;
+            background-color: #32ea12ff;
         }
         .btn-hapus:hover {
-            background-color: #c82333;
+            background-color: #327fe4ff;
         }
         .pesan-status {
             padding: 12px;

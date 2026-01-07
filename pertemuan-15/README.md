@@ -14,5 +14,5 @@ TRYOUT Hari ini saya Melakukan:<br>
 <li>membuat dan mengedit file edit_biodataMhs.php</li>
 <li>membuat dan mengedit file update_biodataMhs.php</li>
 <li>membuat dan mengedit file delate_biodataMhs.php</li>
-
-
+<li>menambahkan localhost kedalam folder pertemuan 15 yaitu localhost_biodata.sql</li>
+</ol>
