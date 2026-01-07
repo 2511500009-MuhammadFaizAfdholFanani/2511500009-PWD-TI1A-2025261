@@ -12,5 +12,6 @@ TRYOUT Hari ini saya Melakukan:<br>
 <li>membuat dan mengedit file Read_biodataMhs.php</li>
 <li>menghubungkanfile index.php dengan proses_biodataMhs.php</li>
 <li>membuat dan mengedit file edit_biodataMhs.php</li>
+<li>membuat dan mengedit file update_biodataMhs.php</li>
 
 
