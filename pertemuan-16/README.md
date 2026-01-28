@@ -8,5 +8,7 @@ Pada UAS Hari ini saya mengerjakan:<br>
 <ol>
 <li>Saya telah mengerjakan Soal no 1 tentang membuat Tabel untuk Biodata Dosen</li>
 <li>membuat file read_biodataDsn.Php</li>
-<li>MEmbuat file proses-biodataDsn.php</li>
+<li>Membuat file proses-biodataDsn.php</li>
+<li>Membuat file edit-biodataDsn.php</li>
+
 </ol>
